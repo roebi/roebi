@@ -1,0 +1,42 @@
+<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+
+      .bg { fill: #0d1117; }
+      .line1 { font: bold 36px 'JetBrains Mono', monospace; fill: #c9a84c; }
+      .line2 { font: 18px 'JetBrains Mono', monospace; fill: #4ecdc4; }
+      .cursor { fill: #c9a84c; animation: blink 1s step-end infinite; }
+
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+      .text1 { animation: reveal1 0.8s steps(5,end) 0.2s both; }
+      .text2 { animation: reveal2 1.2s steps(40,end) 1.2s both; }
+
+      @keyframes reveal1 {
+        from { clip-path: inset(0 100% 0 0); }
+        to   { clip-path: inset(0 0% 0 0); }
+      }
+      @keyframes reveal2 {
+        from { clip-path: inset(0 100% 0 0); }
+        to   { clip-path: inset(0 0% 0 0); }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="120" rx="8"/>
+
+  <!-- Prompt symbol -->
+  <text x="24" y="52" font-family="JetBrains Mono, monospace" font-size="28" fill="#4ecdc4">❯</text>
+
+  <!-- Name -->
+  <text class="line1 text1" x="60" y="52">roebi</text>
+
+  <!-- Cursor after name -->
+  <rect class="cursor" x="182" y="28" width="3" height="30" rx="1"/>
+
+  <!-- Tagline -->
+  <text class="line2 text2" x="60" y="88">
+    New Work with Skills · Swiss Open Source · AI-augmented Engineering
+  </text>
+</svg>
