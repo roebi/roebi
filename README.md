@@ -47,6 +47,6 @@ This is the [agentskills.io](https://agentskills.io) open specification — and 
 
 <div align="center">
 
-*roebi · Robert Halter · New Work with Skills · agentskills.io · Switzerland*
+*roebi · Robert Halter · New Work with Skills · new-work-skills.dev · Switzerland*
 
 </div>
