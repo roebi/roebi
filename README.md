@@ -61,12 +61,12 @@ The requirements phase in that framework is especially important:
 
 In the order shown on my GitHub profile:
 
-1. [aider-skills](https://github.com/roebi/aider-skills)
+1. [sw-dev-agent-framework](https://github.com/roebi/sw-dev-agent-framework)
 2. [agent-skills](https://github.com/roebi/agent-skills)
-3. [new-work-skills](https://github.com/roebi/new-work-skills)
-4. [awesome-agent-skills](https://github.com/roebi/awesome-agent-skills)
+3. [ai-consolidation-timeline](https://github.com/roebi/ai-consolidation-timeline)
+4. [new-work-skills](https://github.com/roebi/new-work-skills)
 5. [agent-security-skills](https://github.com/roebi/agent-security-skills)
-6. [skill-openapi-bridge](https://github.com/roebi/skill-openapi-bridge)
+6. [aider-skills](https://github.com/roebi/aider-skills)
 
 ---
 
