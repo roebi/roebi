@@ -18,9 +18,11 @@ That question led to **New Work with Skills** — a methodology where every task
 
 This is not just a theoretical idea. It is grounded in the way I actually work.
 
-Based on the skills I created and used in my own framework, **@roebi/sw-dev-agent-framework**, I refined a practical process for building software in a disciplined, repeatable way. By using and improving those skills in real projects, I developed a workflow that is both **specification-driven** and **TDD-driven**:
+Based on the skills I created and used in my own framework, [**sw-dev-agent-framework**](https://github.com/roebi/sw-dev-agent-framework), I refined a practical process for building software in a disciplined, repeatable way. By using and improving those skills in real projects, I developed a workflow that is both **specification-driven** and **TDD-driven**:
 
 - Start from clear requirements and a concrete specification
+- Group requirements into named, uniquely prefixed groups
+- Order the groups by dependencies: independent groups come first, and dependent groups follow only when their dependencies are approved
 - Turn those requirements into architecture and implementation decisions
 - Drive development through failing tests first
 - Validate each step before moving on
@@ -43,7 +45,20 @@ Skills are composable. Skills are auditable. Skills ship.
 **4. Version** — Pin skills like dependencies. Reproducible today, next year, on any model.  
 **5. Improve** — Use them in real projects, learn from the outcomes, and evolve the workflow.
 
-This is the [agentskills.io](https://agentskills.io) open specification — and it matches the process I developed while building and refining **@roebi/sw-dev-agent-framework**: specification-first, TDD-first, and continuously improved through repeated use.
+This is the [agentskills.io](https://agentskills.io) open specification — and it matches the process I developed while building and refining [**sw-dev-agent-framework**](https://github.com/roebi/sw-dev-agent-framework): specification-first, TDD-first, and continuously improved through repeated use.
+
+---
+
+## Pinned repositories
+
+In the order shown on my GitHub profile:
+
+1. [aider-skills](https://github.com/roebi/aider-skills)
+2. [agent-skills](https://github.com/roebi/agent-skills)
+3. [new-work-skills](https://github.com/roebi/new-work-skills)
+4. [awesome-agent-skills](https://github.com/roebi/awesome-agent-skills)
+5. [agent-security-skills](https://github.com/roebi/agent-security-skills)
+6. [skill-openapi-bridge](https://github.com/roebi/skill-openapi-bridge)
 
 ---
 
@@ -55,6 +70,7 @@ This is the [agentskills.io](https://agentskills.io) open specification — and 
 | 📝 **[Blog](https://roebi.github.io/roebi-halter-in-blog)** | What I'm learning, building, and discovering |
 | 🤖 **[agent-skills](https://github.com/roebi/agent-skills)** | My personal skills library — open source |
 | 🛠 **[aider-skills](https://github.com/roebi/aider-skills)** | Agent Skills integration for aider |
+| 🧰 **[sw-dev-agent-framework](https://github.com/roebi/sw-dev-agent-framework)** | Specification-driven, TDD-driven software development with agent skills |
 
 ---
 
